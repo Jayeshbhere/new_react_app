@@ -126,7 +126,7 @@ const groupTickets = (tickets, groupBy) => {
     }
     grouped[groupKey].push(ticket);
   });
-
+  // console.log(grouped);
   return grouped;
 };
 
@@ -142,7 +142,7 @@ const sortTicketsInGroups = (groupedTickets, sortOrder) => {
     }
     sorted[groupKey] = sortedGroup;
   }
-
+  // console.log(sorted);
   return sorted;
 };
 
